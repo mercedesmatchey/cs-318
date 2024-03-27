@@ -13,6 +13,7 @@ header{
 h1{
     display: none;
 }
+/*header is spelled wrong*/
 hedaer>img{
     width: 23rem;
     max-width: 100%;
@@ -58,6 +59,7 @@ main img{
     color: rgb(15, 15, 46);
     padding: 2rem 4rem;
 }
+/*From here to line 96 needs to be in the media query for 1100px*/
 nav{
     flex-basis: unset;
 }
@@ -92,13 +94,15 @@ h2{
     width: 32%;
     margin: 0.5rem;
 }
+/*the gallery css needs to be in the 1500px media query*/
 .gallery{
     max-height: 120rem;
 }
+/*this gallery css needs to be in the 2300px media query*/
 .gallery{
     max-height: 150rem;
 }
 
 @media (min-width:1100px){}
 @media (min-width:1500px){}
-@media (min-width:230px){}
+@media (min-width:2300px){}
